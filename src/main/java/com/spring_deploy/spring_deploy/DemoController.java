@@ -11,6 +11,6 @@ public class DemoController {
 
     @GetMapping
     public ResponseEntity<String> getRoot() {
-        return ResponseEntity.ok("{\"message\":\"Hello World\"}");
+        return ResponseEntity.ok("Hello Digital Ocean!");
     }
 }
